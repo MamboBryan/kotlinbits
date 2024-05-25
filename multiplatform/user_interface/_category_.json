@@ -1,0 +1,8 @@
+{
+    "label": "User Interface",
+    "position": 2,
+    "link": {
+        "type" : "generated-index",
+        "description": "This part focuses on how to build UI components for your KMP(Kotlin Multiplatform App) & testing them, yes TESTING them"
+    }
+}

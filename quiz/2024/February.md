@@ -1,6 +1,6 @@
 ---
-sidebar_position: 3
-title: February 
+title: February
+description:  Understanding how arrays work & their overall time complexity
 ---
 
 # The Challenge #2
@@ -19,7 +19,6 @@ Output: [1,3,12,0,0]
 ```
 
 **Example 2:**
-
 ```
 Input: nums = [0]
 Output: [0]

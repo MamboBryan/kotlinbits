@@ -1,6 +1,6 @@
 ---
-sidebar_position: 2
 title: January 
+description: Understanding how to use infix function and member references
 ---
 
 # The Challenge #1

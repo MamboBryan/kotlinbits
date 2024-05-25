@@ -1,0 +1,8 @@
+{
+    "label": "2024",
+    "position": 2,
+    "link": {
+        "type" : "generated-index",
+        "description": "These are some of the questions tackled in the KotlinKenya meetup arranged by months"
+    }
+}

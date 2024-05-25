@@ -69,6 +69,15 @@ const config = {
         sidebarPath: require.resolve("./sidebars.js"),
       },
     ],
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        id: "multiplatform",
+        path: "multiplatform",
+        routeBasePath: "multiplatform",
+        sidebarPath: require.resolve("./sidebars.js"),
+      },
+    ],
   ],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -88,10 +97,16 @@ const config = {
             position: "left",
             activeBaseRegex: `/docs/`,
           },
-          { to: "/blog", label: "Articles", position: "left" },
+          { to: "/blog", label: "Blog", position: "left" },
           {
-            to: "/quiz/quizzy",
-            label: "The Challenge",
+            to: `/quiz/category/${new Date().getFullYear()}`,
+            label: "Challenges",
+            position: "left",
+            activeBaseRegex: `/docs/`,
+          },
+          {
+            to: "/multiplatform/intro",
+            label: "Multiplatform",
             position: "left",
             activeBaseRegex: `/docs/`,
           },
@@ -152,7 +167,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} KotlinBits. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} KotlinBits.`,
       },
       prism: {
         theme: lightCodeTheme,
