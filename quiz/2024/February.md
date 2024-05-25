@@ -1,4 +1,5 @@
 ---
+sidebar_position: 2
 title: February
 description:  Understanding how arrays work & their overall time complexity
 ---
