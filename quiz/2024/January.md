@@ -1,4 +1,5 @@
 ---
+sidebar_position: 1
 title: January 
 description: Understanding how to use infix function and member references
 ---
